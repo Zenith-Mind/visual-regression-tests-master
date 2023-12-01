@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: #000;
+  font-family: Arial;
+}
+
+.top {
+  color: #fff;
+  background-color: #000;
+  padding: 15px;
+  text-align: left;
+}
+
+.row1Content1 {
+  color: #fff;
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+}
+
+.row1Content2 {
+  color: #fff;
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer {
+  border: 1px solid #fff;
+  padding-bottom: 15px;
+  font-weight: bold;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: right;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  font-weight: bold;
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+#row2 {
+  border: 1px solid #fff;
+}
+#row2 > h2 {
+  font-size: 27px;
+  line-height: 13px;
+  color: #fff;
+  text-align: left;
+}
+
+.row2Content {
+  padding: 15px;
+  column-count: 2;
+  column-gap: 40px;
+}
+
+.row2Content {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+.row2Text {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #fff;
+  column-gap: 40px;
+}
+
+body {
+  background-image: url("https://imgur.com/R18AmXM.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+img {
+  display: block;
+  width: 25%;
+  height: 25%;
+}

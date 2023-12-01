@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "backstopjs": "^6.2.2",
+    "chrome": "^0.1.0",
+    "chromedriver": "^119.0.1",
+    "selenium-webdriver": "^4.15.0"
+  }
+}
